@@ -23,7 +23,7 @@ let userEmail  // Undefined
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId)  // Output == false
+// console.log(id === anotherId)  // Output == false
 
 // const bigNumber = 354016540687n
 
@@ -50,4 +50,36 @@ const myFunction = function(){
     console.log("Hello World")
 }
 
-console.log(typeof outsideTemperature)
+// console.log(typeof outsideTemperature)  // Output == Object
+
+
+
+
+// *****************************************************************************
+
+// Memory Allocation
+
+// Stack (Primitive), Heap (Non-Primitive)
+// stack memory - copy
+// heap memory - reference of original value
+
+let myYoutubeName = "nikhiljaiswaldotcom"
+let anotherName = myYoutubeName 
+anotherName = "chaiaurcode"
+
+// console.log(myYoutubeName)  // Output == nikhiljaiswaldotcom
+// console.log(anotherName)    // Output == user@ybl
+
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+// console.log(userTwo.email)  // Output == user@google.com
+
+userTwo.email = "hitesh@google.com"
+
+// console.log(userOne.email)   // Output == hitesh@google.com
+// console.log(userTwo.email)   // Output == hitesh@google.com

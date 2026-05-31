@@ -69,9 +69,38 @@ let value = 3
 let negValue = -value 
 // console.log(negValue)
 
-console.log(2+2);
-console.log(2-2);
-console.log(2*2)
-console.log(2**2)
-console.log(2/2)
-console.log()
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**3)
+// console.log(2/2)
+// console.log(2%3)
+
+let str1 = "hello"
+let str2 = " nikhil"
+
+let str3 = str1 + str2
+// console.log(str3)  // Output == hello nikhil
+
+// The problem
+// console.log("1" + 2)   // Output == 12
+// console.log(1 + "2")   // Output == 12
+
+// console.log("1" + 2 + 2)  // Output == 122
+// console.log(1 + 2 + "2")  // Output == 32
+
+// console.log(true)  // Output == true
+// console.log(+true)  // Output == 1
+// console.log(true+)   // Output == throw error
+
+// console.log(+"")  // Output == 0
+
+// let gameCounter = 100
+// gameCounter++
+// console.log(gameCounter)
+
+// let gameCounter = 100
+// ++gameCounter
+// console.log(gameCounter)
+
+// See the documentation for more stuffs.

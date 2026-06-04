@@ -62,5 +62,16 @@ let result2 = addNum(10, 2)
                                 Global Execution
 
 
+Javascript is a synchronous language and is a single threaded.
 
-                                 
+-> Execution Context = Execute one line of code at a time. 
+console.log("one") -> console.log("two")    #Call Stack    #Memory help 
+
+=> Each operation waits for the last one to complete before executing. 
+
+
+==== Blocking Code vs Non Blocking Code ====
+
+Blocking Code => Block the flow of programme => Read File Synchronous
+Non Blocking Code => Does not block execution => Read File Asynchronous
+
